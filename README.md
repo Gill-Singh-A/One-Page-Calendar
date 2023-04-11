@@ -2,7 +2,7 @@
 Generates a One Page Calendar of the specified year
 
 ## Requirements
-Language Used = Python3
+Language Used = Python3<br />
 Modules/Packages used:
 * os
 * webbrowser
