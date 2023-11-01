@@ -70,7 +70,7 @@ def Render_Calendar(year):
     f = open(str(year)+"-Calendar.html", 'w')
     f.write(code)
     f.close()
-    webbrowser.open(os.path.abspath(os.getcwd())+"\\"+str(year)+"-Calendar.html", new=2)
+    webbrowser.open(os.path.abspath(os.getcwd())+"/"+str(year)+"-Calendar.html", new=2)
 
 if __name__ == "__main__":
     Render_Calendar(int(sys.argv[1]))
